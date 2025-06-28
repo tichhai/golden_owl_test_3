@@ -11,12 +11,11 @@
 ### 1. Yêu cầu
 - PHP >= 8.1
 - Composer
-- SQLite (hoặc MySQL/Postgres nếu muốn)
-- Node.js (nếu muốn build lại frontend)
+- MySQL
 
 ### 2. Clone project
 ```bash
-git clone <repo-url>
+git clone https://github.com/tichhai/golden_owl_test_3
 cd golden_owl_test_3
 ```
 
@@ -54,8 +53,3 @@ php artisan serve
 - Thống kê phân loại điểm từng môn: `/api/subject-stats`
 - Báo cáo phân loại học sinh theo tổng điểm: `/api/report`
 - Top 10 học sinh khối A: `/api/top-a`
-
----
-
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-### Premium Partners
