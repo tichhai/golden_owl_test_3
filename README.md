@@ -1,11 +1,6 @@
 
 # G-Scores - Tra cứu điểm thi THPT 2024
 
-## Demo
-- Link demo online (Render): [Cập nhật sau khi deploy]
-
----
-
 ## Hướng dẫn chạy dự án Laravel này trên máy local
 
 ### 1. Yêu cầu
@@ -34,17 +29,13 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-### 6. Cấu hình database
-- **MySQL:**
-  - Cập nhật các biến DB trong `.env` cho phù hợp (DB_CONNECTION, DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD).
-
-### 7. Chạy migrate và seed dữ liệu
+### 6. Chạy migrate và seed dữ liệu
 ```bash
 php artisan migrate --force
 php artisan db:seed --force
 ```
 
-### 8. Chạy server
+### 7. Chạy server
 ```bash
 php artisan serve
 ```
